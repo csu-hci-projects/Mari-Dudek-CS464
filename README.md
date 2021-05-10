@@ -23,8 +23,7 @@ and the other half were not.
 5. Please report your most recent week's Screen-Time Daily Average from your phone 
 
 ### Links
-* Game: https://www-mari.github.io/
-
+* Game: https://www-mari.github.io
 * Short Video:
 * Presentation Video:
-* Github Repository: https://github.com/www-mari/www-mari.github.io/
+* Github Repository: https://github.com/www-mari/www-mari.github.io
