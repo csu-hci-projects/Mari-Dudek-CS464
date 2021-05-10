@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(107, 151, 129);
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    color: black;
+    font-size:xx-large;
+}
+
+h2, h3 {
+    font-family: monospace;
+    color: black;
+}
+
+/* GAME BOARD */
+#gameBoard {
+    width: 400;
+    height: 400;
+    margin: 1vw auto;
+    background-color: #0c1021;
+    border: solid 10px rgb(112, 140, 144);
+    border-radius: 10px;
+  
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+}
+
+#scoreBox {
+    margin-bottom: 0px;
+}
+
+/* TIME BOX */
+#timeBoard {
+    width: 20vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.timeBox {
+    font-family: monospace;
+    border-radius: 10px;
+    border: solid 5px rgb(112, 140, 144);
+    color:lightgray;
+    background-color: #0c1021;
+    display: inline-block;
+    padding: 1vw;
+    width: 40%;
+  
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* GAME OVER MENU */
+#gameOver {
+    border-radius: 5px;
+    border: 2px solid #0c1021;
+    background-color: lightgray;
+    position: absolute;
+    visibility: hidden;
+    text-align: center;
+    padding: 1vw;
+    margin-top: 125px;
+    margin-left: 950px;
+}
+
+#restartButton {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#restartButton:hover {
+    background-color: rgb(112, 140, 144);
+}
+
+#quitSurvey {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#quitSurvey:hover {
+    background-color: rgb(112, 140, 144);
+}
+
+/* POST GAME SURVEY */ 
+#form {
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: lightgray;
+    position: absolute;
+    visibility: hidden;
+    padding: 1vw;
+    margin-top: 200px;
+    margin-left: 137px;
+    z-index: 1;
+}
+
+/* RULES */
+#rules {
+    border: 2px solid black;
+    background-color: lightgray;
+    position: absolute;
+    padding: 1vw;
+    margin-left: 8px;
+    text-align: center;
+}
+
+#startButton {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #40FF00;
+    text-align: center;
+    visibility: visible;
+
+}
+#startButton:hover {
+    background-color: rgb(112, 140, 144);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Snake</title>
+        <!-- link html file with css style file -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body onload="init();">
+        <h1>SNAKE!</h1>
+
+        <!-- #fs-frm shows post-game survey -->
+        <section id="form">
+            <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/xqkwelel" method="post">
+                <fieldset id="fs-frm-inputs">
+                <label for="name">Name (Optional)</label>
+                <input type="text" name="name" id="name" placeholder="Enter name">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" placeholder="Enter age" required="">
+                <label for="time"></label>
+                <input type="hidden" name="time" id="time" value="">
+                <label for="restart"></label>
+                <input type="hidden" name="restart" id="restart" value="">
+                <fieldset id="fs-frm-selects">
+                    <label for="video-game">1. Roughly how many hours per week do you spend playing video games?</label>
+                    <select name="video-game" id="video-game" required="">
+                    <option value="Choose" selected="" disabled="">Choose</option>
+                    <option value="0-3">0-3</option>
+                    <option value="4-6">4-6</option>
+                    <option value="7-10">7-10</option>
+                    <option value="11-14">11-14</option>
+                    <option value="15+">15+</option>
+                    </select>
+                    <label for="social-media">2. Roughly how many hours per week do you spend on social media?</label>
+                    <select name="social-media" id="social-media" required="">
+                    <option value="Choose" selected="" disabled="">Choose</option>
+                    <option value="0-3">0-3</option>
+                    <option value="4-6">4-6</option>
+                    <option value="7-10">7-10</option>
+                    <option value="11-14">11-14</option>
+                    <option value="15+">15+</option>
+                    </select>
+                </fieldset>
+                <label for="screen-time">3. Please report your most recent week's Screen-Time Daily Average from your phone. (Settings > Screen Time > Daily Average)</label>
+                <input name="screen-time" id="screen-time" placeholder="EX. 4hrs 30mins" required="">
+                <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+                </fieldset>
+                <input type="submit" value="Send Responses">
+            </form>
+        </section>
+
+        <!-- #gameOver is the endgame prompt -->
+        <section id="gameOver">
+            <h1 class="title">GAME OVER!</h1>
+                <h3 id="restartButton">Restart?</h3>
+                <h3 id="quitSurvey">Quit & Survey</h3>
+        </section>
+
+        <!-- #rules is the instructions & start button -->
+        <div id="rules">
+            <h2 class="title">RULES: </h2>
+                <h5 id="1"> #1 Use arrow keys to move. </h5>
+                <h5 id="2"> #2 If the snake touches the edge or itself, you lose.</h5>
+                <h5 id="3"> #3 You may play for as long as you'd like,</br>and restart as many times as you'd like.</h5>
+                <h5 id="4"> #4 When you are finished, please complete the survey.</h5>
+                <h5></h5>
+                <h5 id="5"> Press Start to begin. </h5>
+            <h3 id="startButton">START</h3>
+        </div>
+
+        <!-- #gameBoard is the main game board-->
+        <canvas id="gameBoard" width="400" height="400"></canvas>
+
+        <!-- #scoreBox shows the current score -->
+        <h2 class="scoreBox" >SCORE: <span id="points">0</span></h2>
+
+        <!-- #timeBox shows elapsed time -->
+        <div id="timeBoard">
+            <h2 class="timeBox">TIME ELAPSED:   <span id="timer">00:00</span></h2>
+        </div>
+
+    </body>
+    <script src="snake.js"></script>
+</html>
