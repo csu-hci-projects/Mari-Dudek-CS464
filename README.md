@@ -12,16 +12,16 @@ the survey responses for each participant.
 
 ### Experiment Tasks
 * Game Rules: 
-1. Use arrow keys to move. 
-2. If the snake touches the edge or itself, you lose. 
-3. You may play for as long as you'd like, and restart as many times as you'd like. 
+    1. Use arrow keys to move. 
+    2. If the snake touches the edge or itself, you lose. 
+    3. You may play for as long as you'd like, and restart as many times as you'd like. 
 
 * Survey Questions:
-1. Name (optional)
-2. Age
-3. Roughly how many hours per week do you spend playing video games?
-4. Roughly how many hours per week do you spend on social media?
-5. Please report your most recent week's Screen-Time Daily Average from your phone 
+    1. Name (optional)
+    2. Age
+    3. Roughly how many hours per week do you spend playing video games?
+    4. Roughly how many hours per week do you spend on social media?
+    5. Please report your most recent week's Screen-Time Daily Average from your phone 
 
 ### Links
 * Game: https://www-mari.github.io
