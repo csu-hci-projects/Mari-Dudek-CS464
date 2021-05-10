@@ -10,12 +10,12 @@ and social media habits. Half of the participants were able to see how long they
 and the other half were not.  
 
 ### Experiment Tasks
-* Game Rules: 
+* <u>Game Rules:</u> 
 1. Use arrow keys to move. 
 2. If the snake touches the edge or itself, you lose. 
 3. You may play for as long as you'd like, and restart as many times as you'd like. 
 
-* Survey Questions:
+* <u>Survey Questions:</u>
 1. Name
 2. Age
 3. Roughly how many hours per week do you spend playing video games?
