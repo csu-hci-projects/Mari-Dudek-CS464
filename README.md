@@ -7,16 +7,17 @@ This study was conducted in CS464 - Human Computer Interaction, Spring 2021. The
 experiment is to study potential video game and/ or media addiction in young adults. 
 Participants were asked to play a Snake game and then complete a survey about their gaming 
 and social media habits. Half of the participants were able to see how long they were playing 
-and the other half were not.  
+and the other half were not. Elapsed time and the number of restarts were recorded along with
+the survey responses for each participant. 
 
 ### Experiment Tasks
-* <u>Game Rules:</u> 
+* Game Rules: 
 1. Use arrow keys to move. 
 2. If the snake touches the edge or itself, you lose. 
 3. You may play for as long as you'd like, and restart as many times as you'd like. 
 
-* <u>Survey Questions:</u>
-1. Name
+* Survey Questions:
+1. Name (optional)
 2. Age
 3. Roughly how many hours per week do you spend playing video games?
 4. Roughly how many hours per week do you spend on social media?
