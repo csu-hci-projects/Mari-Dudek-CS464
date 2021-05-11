@@ -4,7 +4,7 @@
 
 ### About
 This study was conducted in CS464 - Human Computer Interaction, Spring 2021. The goal of the 
-experiment is to study potential video game and/ or media addiction in young adults. 
+experiment is to study potential video game and/or media addiction in young adults. 
 Participants were asked to play a Snake game and then complete a survey about their gaming 
 and social media habits. Half of the participants were able to see how long they were playing 
 and the other half were not. Elapsed time and the number of restarts were recorded along with
