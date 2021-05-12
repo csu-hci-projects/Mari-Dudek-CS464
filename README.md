@@ -25,7 +25,6 @@ the survey responses for each participant.
 
 ### Links
 * Game: https://www-mari.github.io
-* Short Video:
-* Presentation Video:
+* Video:
 * Github Repository: https://github.com/www-mari/www-mari.github.io
 * CS464 Website: 
